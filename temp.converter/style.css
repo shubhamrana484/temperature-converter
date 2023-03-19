@@ -1,0 +1,67 @@
+.container {
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color:  brown;;
+    color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+body {
+    padding: 40px 50px;
+}
+
+.cel {
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+}
+.fahr{
+    padding: 5px 10px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        width: 250px;
+
+}
+.fahr input{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.cel input{
+    height: 40px;
+        width: 100%;
+        border-radius: 15px;
+}
+@media screen and (max-width:450px) {
+    h1{
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .cel{
+    font-size: 20px;
+        flex-direction: column;
+    }
+    .fahr{
+        font-size: 20px;
+            flex-direction: column;
+    }
+}
